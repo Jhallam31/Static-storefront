@@ -1,0 +1,232 @@
+body{
+    font-family: 'Shadows Into Light Two';
+    background-image: url("https://i.pinimg.com/originals/d2/47/16/d24716eb897af33731a20272ead3c0c6.jpg");
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+header{
+    background-color: transparent; 
+    margin-bottom: 0;
+    font-family: 'Sigmar One', cursive;
+    text-shadow: 2px 2px 5px rgb(77, 2, 107);
+}
+
+h1{
+    text-align: center;
+    font-family: 'Sigmar One', cursive;
+}
+
+#navBar{
+	width:100%;
+    margin-top: 0;
+    text-align: center;
+}
+
+#navlist{
+    
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d1ffed;
+    width:100%;
+    padding-left: 38.5%;
+}
+.topbar{
+    float:left;
+}
+
+.navLink{
+    display: block;
+    color: #302f30;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: inherit;
+    text-shadow: 2px 2px 5px;
+}
+.navLink:hover{
+    color: #2c0247;
+}
+
+.saleitems{
+    text-align:center;
+    margin-left: 5%;
+    height:400px;
+}
+
+#glitter{
+	float:left;
+	height: 300px;
+    width:30%;
+    margin-right: 20px;
+    background-image: url("resources/glitter\ slime2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position:relative; 
+}
+#glitter:hover{
+    border: solid black;
+}
+#charm{
+	float:left;
+	height: 300px;
+    width:30%;
+    margin-right:20px;
+    background-image: url(resources/charm\ slime.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position:relative; 
+}
+#charm:hover{
+    border:solid black;
+}
+
+#floam{
+	float:left;
+	height: 300px;
+    width:30%;
+    background-image: url("resources/Floam-Slime.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: center; 
+    position:relative;   
+}
+#floam:hover{
+    border: solid black;
+}
+
+.selectBar{
+    background-color: #f0e3fc;
+    position: absolute; 
+    bottom: 0;
+    height:10%;
+    width: 100%;
+}
+
+.linkText{
+    text-decoration: none;
+    color: #381c54;
+    text-shadow: 2px 2px 5px;
+}
+
+.bestSellers{
+    float:center;
+    width: 800px;
+    background-color: lavender;
+    margin-left: 20%;
+    margin-right: 35%;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+
+}
+
+.bestsellerlink{
+    text-decoration: none;
+    color:black;
+    display: block;
+    background-color: lightblue;
+    margin-top:-30px;
+    width:600px;
+    margin-left:13%;
+}
+
+.bestsellerlink:hover{
+    border:solid white;
+    text-shadow: 2px 2px 5px gray;
+}
+
+#dragonfruit{
+    margin-left: 13%;
+    margin-top:30px;
+    background-image: url("https://cdn.shopify.com/s/files/1/0026/8058/6305/products/dragonfruit_5_2048x.png?v=1587094839");
+    height:600px;
+    width:600px;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    background-size:100%;
+   
+}
+#arcticfreeze{
+    margin-left: 13%;
+    margin-bottom: 30px;
+    background-image: url("https://cdn.shopify.com/s/files/1/0026/8058/6305/products/BlueRasp2_2048x.png?v=1584506585");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height:600px;
+    width: 600px;
+    margin-top: 30px;
+}
+#birthdaycake{
+    margin-left: 13%;
+    margin-top: 30px;
+    background-image: url("https://cdn.shopify.com/s/files/1/0026/8058/6305/products/bday_cake_2_2048x.png?v=1581618108");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+    width:600px;
+    margin-bottom: 30px;
+}
+
+
+
+.emailSection{
+    background-image: url("https://www.stockvault.net/data/2019/08/24/268649/preview16.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 300px;
+    width:99%;
+    position: center;
+    margin-left:0px;
+    margin-right:10px;  
+    margin-bottom: 50px;
+    text-align: center;
+    letter-spacing: .8em;
+    word-spacing: .8em;
+    padding-top: 45px
+}
+
+.questions{
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 20px; 
+}
+
+footer{
+    display: block;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:75px;
+    background-color: #d1ffed;
+    color: gray;
+    text-align: center;
+    list-style-type: none;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+}
+
+.footerLinks{
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.footerLinks a{
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.footerLinks a:hover{
+    color: black;
+}
